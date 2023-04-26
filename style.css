@@ -65,7 +65,7 @@ ul li a:hover {
     background-color: rgba(127, 127, 127, .7);
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 640px) {
     body {
         background:#6f9dce;
         text-align: center;
