@@ -1,5 +1,5 @@
 body {
-    background-image: url(Imagens/Lunabarfrente.jpg);
+    background: url(Imagens/Lunabarfrente.jpg);
     background-size: cover;
     color: white;
     text-align: right;
@@ -16,7 +16,7 @@ h1 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight:bold;
     margin: 16px 0;
 }
@@ -58,7 +58,7 @@ ul li a:hover {
     color: white;
     font-size: 18px;
     border-radius: 10px;
-    box-shadow: 10px 10px 15px #808080;
+    box-shadow: 10px 10px 15px rgba(127, 127, 127, .3);
 }
 
 .botao:hover {
@@ -67,11 +67,15 @@ ul li a:hover {
 
 @media (max-width: 640px) {
     body {
+        background:#6f9dce;
         text-align: center;
-        margin: 50px 20px;
+        padding: 50px;
     }
-
     h1 {
-        font-size: 50px;
+        font-size: 100px;
     }
-}
+    p {
+        font-size: 20px;
+    }
+}    
+
